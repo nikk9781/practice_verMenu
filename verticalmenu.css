@@ -1,0 +1,80 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+nav
+{
+    background-color: tomato;
+    width: 10%;
+    height: 100vh;
+}
+#cont
+{
+    list-style-type: none;
+    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover
+{
+    color: white;
+    background-color: black;
+}
+/* <----Below Line drop Down--->
+#menuMob
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: chartreuse;
+    position: relative;
+    display: none;
+} */
+
+/* <----Right-side Line drop Down---> */
+#menuMob
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0%;/*-59px*/
+    left: 100%;/*98px*/
+    display: none;
+}
+#drop
+{
+    position: relative;
+}
+#drop:hover #menuMob
+{
+    display: block;
+}
+#appleMenu
+{
+    background-color: pink;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0%;
+    left: 100%;
+    position: absolute;
+    display: none;
+}
+#apple
+{
+    position: relative;
+}
+#apple:hover #appleMenu
+{
+    display: block;
+}
